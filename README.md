@@ -46,4 +46,4 @@ Grâce à la centralisation sur **Firebase**, les actions sont synchronisées in
 4. Lancez l'application : `flutter run`
 
 ## 👤 Auteur
-- **Clément Faure** - [Mon LinkedIn]:(https://www.linkedin.com/in/cl%C3%A9ment-faure-218713393/)
+- **Clément Faure** - Mon LinkedIn : (https://www.linkedin.com/in/cl%C3%A9ment-faure-218713393/)
