@@ -1,0 +1,47 @@
+.header {
+    background-color: #1e293b;
+    border-bottom: 2px solid #6366f1;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    height: 70px;
+}
+.logo {
+    height: 45px;
+    width: auto;
+}
+.accueil, .crée, .connect, .admin, .logout {
+    background-color: #6366f1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin-left: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+}
+.accueil {
+    margin-right: auto; 
+    background-color: #6366f1;
+}
+.logout {
+    background-color: #ef4444;
+}
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+    .accueil {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .crée, .connect, .admin, .logout {
+        margin-top: 5px;
+        width: 100%;
+        text-align: center;
+    }
+}

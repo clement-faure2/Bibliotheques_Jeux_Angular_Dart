@@ -1,0 +1,23 @@
+<section class="login-container">
+    <h2>Connexion</h2>
+
+ <div *ngIf="user; else loginForm">
+    <p>Bonjour {{ user?.email }}</p>
+    <p *ngIf="successMessage">{{successMessage}}</p>
+    <button class="btn btn-danger" (click)="logout()">Se déconnecter</button>
+ </div>
+   <ng-template #loginForm>
+
+    <div class="form-group">
+        <label for="email">Email :</label>
+        <input type="email" id="email" placeholder="Saisissez votre adresse mail" [(ngModel)]="email">
+    </div>
+    <div class="form-group">
+        <label for="password">Mot de passe :</label>
+        <input type="password" id="password" placeholder=" votre mot de passe" [(ngModel)]="password">
+    </div>
+    <button class="btn btn-primary w-25" (click)="loggin()">Se connecter</button>
+    <p class="text-danger" *ngIf="errorMessage && !user">{{errorMessage}}</p>
+   </ng-template>
+
+</section>

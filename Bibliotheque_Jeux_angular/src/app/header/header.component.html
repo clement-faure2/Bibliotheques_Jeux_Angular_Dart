@@ -1,0 +1,9 @@
+<div class="header">
+    <img src="/image/log.png" alt="Logo" class="logo">
+
+    <button class="accueil" routerLink="">Acceuil</button>
+    <button class="crée" routerLink="/sigin" *ngIf="!isLoggedIn">Crée un compte</button>
+    <button class="connect" routerLink="/login" *ngIf="!isLoggedIn">Connexion</button>
+    <button class="admin" routerLink="/admin" *ngIf="isLoggedIn">Mes Jeux</button>
+    <button class="logout" (click)="onLogout()" *ngIf="isLoggedIn">Déconnexion</button>
+</div>
