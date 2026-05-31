@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "382217153328",
+    "project_id": "messagerie-dart-project",
+    "storage_bucket": "messagerie-dart-project.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382217153328:android:0d027b126dcd032b9676f5",
+        "android_client_info": {
+          "package_name": "com.example.messagerie_dart_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYihzS0sQqmIH3vZJuYdWv2Q2ntMERGts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
